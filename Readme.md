@@ -1,4 +1,4 @@
-#Speaking mind project
+# Speaking mind project
 ## Android client application
 
 This product is now open-source under AGPL v3 license. 
