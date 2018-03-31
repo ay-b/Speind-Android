@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/delimeter_h"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp" >
+
+    	<ToggleButton
+	        android:id="@+id/title"
+	        android:layout_width="42dp"
+	        android:layout_height="42dp"
+	        android:layout_alignParentLeft="true"
+    	    android:layout_alignParentTop="false"
+    	    android:layout_centerVertical="true"
+	        android:background="@drawable/checkbox_selector"
+	        android:text=""
+	        android:textOff=""
+	        android:textOn="" 
+	        style="?android:attr/buttonBarButtonStyle"/>
+
+    	<TextView
+    	    android:id="@+id/item_title"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentRight="true"
+    	    android:layout_centerInParent="true"
+    	    android:layout_marginLeft="2dp"
+    	    android:layout_toRightOf="@+id/title"
+    	    android:text=""
+    	    android:textColor="#383939"
+    	    android:textSize="@dimen/text14sp" />
+
+    </RelativeLayout>

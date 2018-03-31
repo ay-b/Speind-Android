@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/delimeter_h" >
+
+    <TextView
+        android:id="@+id/langName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#383939"
+        android:textSize="@dimen/text16sp"
+        android:textStyle="normal" />
+
+    	<ToggleButton
+    	    android:id="@+id/indicator"
+    	    android:layout_width="42dp"
+    	    android:layout_height="42dp"
+    	    android:layout_alignParentRight="true"
+    	    android:layout_centerVertical="true"
+    	    android:background="@drawable/btn_bullets"
+    	    android:clickable="false"
+    	    android:focusable="false"
+    	    android:text=""
+    	    android:textOff=""
+    	    android:textOn="" 
+    	    style="?android:attr/buttonBarButtonStyle"/>
+      </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Programmer/Projects/AndroidstudioProjects/Speind/speind/src/main/res/layout/speind_lang_item.xml -->

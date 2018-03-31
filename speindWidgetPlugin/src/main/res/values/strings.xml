@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">SpeindWidgetPlugin</string>
+	<string name="widget_name">Speind widget</string>
+	<string name="please_wait">Please, wait</string>
+	<string name="speind_not_installed">Speind is not installed</string>
+	<string name="speind_install">Open PlayMarket</string>
+	<string name="speind_not_started">Speind is stopped</string>
+	<string name="speind_start">Launch</string>
+	<string name="speind_need_input">Data input is required</string>
+	<string name="speind_open">Open app</string>
+	<string name="downloading">Loading...</string>
+    <string name="title_activity_speind_launch" translatable="false">SpeindLaunchActivity</string>
+	<string name="start_text">Choose speind service to launch</string>
+</resources>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.taifuno.taifunolibrary.TaifunoActivity" >
+    <item android:id="@+id/taifuno_action_info"
+        android:title="@string/taifuno_action_info"
+        android:icon="@drawable/ic_action_about"
+        android:showAsAction="always"/>
+
+</menu>
+<!-- From: file:/Users/aolkov/Taifuno/android/Taifuno/TaifunoLibrary/src/main/res/menu/menu_taifuno.xml -->

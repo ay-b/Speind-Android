@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:background="@drawable/delimeter_h"
+        android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/groupWrap"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:minHeight="48dp" >
+
+    	<ToggleButton
+	        android:id="@+id/title"
+	        android:layout_width="42dp"
+	        android:layout_height="42dp"
+	        android:layout_alignParentLeft="true"
+    	    android:layout_alignParentTop="false"
+    	    android:layout_centerVertical="true"
+	        android:background="@drawable/checkbox_selector"
+	        android:text=""
+	        android:textOff=""
+	        android:textOn="" 
+	        style="?android:attr/buttonBarButtonStyle"/>
+	    	
+    	<ToggleButton
+    	    android:id="@+id/show"
+    	    android:layout_width="42dp"
+    	    android:layout_height="42dp"
+    	    android:layout_alignParentRight="true"
+    	    android:layout_centerVertical="true"
+    	    android:background="@drawable/btn_bullets"
+    	    android:text=""
+    	    android:textOff=""
+    	    android:textOn="" 
+    	    style="?android:attr/buttonBarButtonStyle"/>
+
+    	<TextView
+    	    android:id="@+id/group_title"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_centerInParent="true"
+    	    android:layout_marginLeft="2dp"
+    	    android:layout_toLeftOf="@+id/show"
+    	    android:layout_toRightOf="@+id/title"
+    	    android:text="" 
+    	    android:textColor="#383939"
+    	    android:textSize="@dimen/text14sp"/>
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#e3e8e9"
+        android:orientation="vertical" >
+
+	</LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

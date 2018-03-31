@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Speind.iml" filepath="$PROJECT_DIR$/Speind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebookPlugin/facebookPlugin.iml" filepath="$PROJECT_DIR$/facebookPlugin/facebookPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sMSPlugin/sMSPlugin.iml" filepath="$PROJECT_DIR$/sMSPlugin/sMSPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speind/speind.iml" filepath="$PROJECT_DIR$/speind/speind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speindAPI/speindAPI.iml" filepath="$PROJECT_DIR$/speindAPI/speindAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speindWidgetPlugin/speindWidgetPlugin.iml" filepath="$PROJECT_DIR$/speindWidgetPlugin/speindWidgetPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twitterPlugin/twitterPlugin.iml" filepath="$PROJECT_DIR$/twitterPlugin/twitterPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vKPlugin/vKPlugin.iml" filepath="$PROJECT_DIR$/vKPlugin/vKPlugin.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/taifuno_chat"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".TaifunoActivity"
+             tools:ignore="MergeRootFrame" /><!-- From: file:/Users/aolkov/Taifuno/android/Taifuno/TaifunoLibrary/src/main/res/layout/activity_taifuno.xml -->

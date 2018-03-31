@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Programmer/Projects/AndroidstudioProjects/Speind/twitterPlugin/src/main/res/values-normal/dimens.xml -->
+    <eat-comment/>
+    <dimen name="text12sp">12sp</dimen>
+    <dimen name="text14sp">14sp</dimen>
+    <dimen name="text16sp">16sp</dimen>
+    <dimen name="text37sp">37sp</dimen>
+</resources>

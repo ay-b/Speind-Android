@@ -1,0 +1,165 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/actionBarColor"
+    android:paddingTop="@dimen/tool_bar_top_padding"
+    tools:context=".SpeindSettings" >       
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/actionBarColor">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rss_settings"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#383939"
+            android:textSize="@dimen/text16sp"/>
+
+    </android.support.v7.widget.Toolbar>
+ 
+    <RelativeLayout
+        android:id="@+id/refrash_rate_wrap"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/delimeter_h" >
+    <Spinner
+        android:id="@+id/refrash_rate"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/refrash_rate_title"
+        android:background="@drawable/btn_spinner" />
+
+    <TextView
+        android:id="@+id/refrash_rate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="20dp"
+        android:text="@string/refrash_rate"
+        android:textColor="#383939"
+        android:textSize="@dimen/text14sp" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/user_feeds_wrap"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/delimeter_h" >
+
+    <TextView
+        android:id="@+id/user_feeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="20dp"
+        android:text="@string/user_feeds" 
+        android:textColor="#383939"
+        android:textSize="@dimen/text14sp" />
+
+    <Button
+        android:id="@+id/user_feeds_button"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_arrow" 
+        style="?android:attr/buttonBarButtonStyle"/>
+    
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/langs_wrap"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/delimeter_h" >
+
+	<Spinner
+        android:id="@+id/langs"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/langs_title"
+        android:background="@drawable/btn_spinner" />
+
+    <TextView
+        android:id="@+id/langs_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="20dp"
+        android:text="@string/choose_lang"
+        android:textColor="#383939"
+        android:textSize="@dimen/text14sp" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/country_wrap"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/delimeter_h" >
+
+	<Spinner
+        android:id="@+id/countries"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/country_title"
+        android:background="@drawable/btn_spinner" />
+
+    <TextView
+        android:id="@+id/country_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="20dp"
+        android:text="@string/choose_country"
+        android:textColor="#383939"
+        android:textSize="@dimen/text14sp" />
+
+    </RelativeLayout>
+        
+    <ScrollView
+        android:id="@+id/settingsItemsWrap"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/settingsItems"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

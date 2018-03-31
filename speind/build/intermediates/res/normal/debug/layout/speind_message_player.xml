@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/player"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+    <LinearLayout
+        android:id="@+id/info_wrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/delimeter"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#848a8b"
+            android:textSize="@dimen/text12sp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#383939"
+            android:textSize="@dimen/text14sp" />
+
+        <TextView
+            android:id="@+id/album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#848a8b"
+            android:textSize="@dimen/text12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/delimeter"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/time_wrap"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/time_wrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/delimeter"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/full_length"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="right"
+            android:textColor="#383939"
+            android:textSize="@dimen/text12sp" />
+
+        <TextView
+            android:id="@+id/current_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:textColor="#3fb9d1"
+            android:textSize="@dimen/text37sp" />
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Programmer/Projects/AndroidstudioProjects/Speind/speind/src/main/res/layout/speind_message_player.xml -->

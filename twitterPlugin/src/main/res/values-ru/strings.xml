@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpeindTwitterPlugin</string>
+    <string name="twitterreceiver">Twitter</string>
+    <string name="authenticated">Авторизован</string>
+    <string name="not_authenticated">Не авторизован</string>
+    <string name="login">Вход</string>
+    <string name="logout">Выход</string>
+    <string name="refrash_rate">Интервал обновления</string>
+    <string-array name="twitter_refrash_intervals">
+        <item>5 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>5 часов</item>
+    </string-array>
+    <string name="settings_title">НАСТРОЙКИ TWITTER</string>
+    <string name="write">пишет:</string>
+    <string name="retwitted">сделал ретвит пользователя</string>
+    <string name="quote">Цитата</string>
+    <string name="link">ссылка на вебсайт</string>
+    <string name="reply">Ответ</string>
+    <string name="from">от</string>
+    <string name="shared_via_speind">Shared via Speind.me</string>
+
+</resources>

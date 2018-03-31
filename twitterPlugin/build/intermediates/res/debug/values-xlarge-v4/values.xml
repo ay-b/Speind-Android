@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Programmer/Projects/AndroidstudioProjects/Speind/twitterPlugin/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-xlarge-v4/values.xml -->
+    <eat-comment/>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">false</bool>
+    <dimen name="abc_search_view_text_min_width">192dip</dimen>
+    <item name="dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="dialog_fixed_width_major" type="dimen">50%</item>
+    <item name="dialog_fixed_width_minor" type="dimen">70%</item>
+    <!-- From: file:/C:/Programmer/Projects/AndroidstudioProjects/Speind/twitterPlugin/src/main/res/values-xlarge/dimens.xml -->
+    <eat-comment/>
+    <dimen name="text12sp">24sp</dimen>
+    <dimen name="text14sp">28sp</dimen>
+    <dimen name="text16sp">32sp</dimen>
+    <dimen name="text37sp">74sp</dimen>
+    <!-- From: file:/C:/Programmer/Projects/AndroidstudioProjects/Speind/twitterPlugin/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-xlarge-v4/values.xml -->
+    <eat-comment/>
+    <integer name="abc_max_action_buttons">5</integer>
+</resources>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="metrica_authorities" translatable="false">com.maple.speind.MetricaContentProvider</string>
+
+    <string name="app_name">Speind</string>
+    <string name="app_name_full">Speaking Mind</string>
+    <string name="service_label">Welcome</string>
+    <string name="unread_label">Unread news</string>
+    
+    <string name="on_air">ON AIR</string>
+    
+    <string name="title_activity_rsssettings">RSSSettings</string>
+    <string name="title_activity_speind_settings">SpeindSettings</string>
+    <string name="title_activity_speind_about">SpeindAbout</string>
+
+    <string name="speind_copyright">©Speaking Mind</string>
+	<string name="need_download_files">Oops! There is no voice installed.</string>
+	<string name="download_tts">You can install free Google TTS.</string>
+	<string name="open_voice_store">Or purchase premium voices.</string>    
+	<string name="download">Download</string>
+	<string name="open_store">Open store</string>
+    <string name="downloading">Downloading files</string>
+    <string name="welcome_message">Good day!</string>
+    <string name="quit">Quit</string>
+    <string name="rssreceiver">News Feeds</string>
+    <string name="report_what">wrote that</string>
+    <string name="details">Details.</string>
+    <string name="album">Album</string>
+    <string name="artist">Artist</string>
+    <string name="track">Track</string>
+    <string name="settings">Settings</string>
+    <string name="general_settings">General settings</string>
+    <string name="post_settings">Posting settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="general_settings_title">General settings</string>
+    <string name="post_settings_title">Posting settings</string>
+    <string name="rss_settings">RSS settings</string>
+    <string name="refrash_rate">Polling interval</string>
+    <string name="main_news">Hot news</string>
+    <string name="regional_news">Local news</string>
+    <string-array name="rss_refrash_intervals">
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>5 hours</item>
+    </string-array>
+    <string name="store_time">Store history for</string>
+    <string-array name="store_times">
+        <item>1 day</item>
+        <item>3 days</item>
+    </string-array>
+    <string name="feedback">Feedback</string>
+    <string name="max_play_time">Reading/Music</string>
+    <string-array name="max_play_times">
+        <item>Read all  news</item>
+        <item>swap 1 by 1</item>
+        <item>5 min timer</item>
+        <item>10 min timer</item>
+        <item>15 min timer</item>
+        </string-array>
+    <string name="feedback_title">FEEDBACK</string>
+    
+    <string name="about_content_title">Speaking Mind</string>
+    
+    <string name="write_mail_text">
+		<![CDATA[
+			<p>We know, you have something to say. Please, do it. We really need your feedback and we’ll be very thankful for every one we get.</p>
+            <p>Thanks in forward.</p>
+		]]>
+	</string>
+
+    <string name="open_chat_text">
+		<![CDATA[
+			<p>You need an immediate answer? Open a chat session and have a try.</p>
+            <p>Please, note that we live in UTC+3 zone and have to sleep, to eat and play with kids time to time.</p>
+            <p>We speak English, Russian and Ukrainian</p>
+		]]>
+	</string>
+
+    <string name="give_5">Like it? Give a five!</string>
+    <string name="open_chat">Open a chat window</string>
+    <string name="write_mail">Write us a letter</string>
+    <string name="send_mail">Send email</string>
+    <string name="open_link">Open the link</string>
+    <string name="read_full_article">Automatically read full articles</string>
+    <string name="confirm_read">Tap the picture to read it</string>
+    <string name="select_voice">Please select voice</string>
+    <string name="ok">OK</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="later">Later</string>
+    <string name="langs_settings">Voices settings</string>
+    <string name="restore_purchases">Restore purchases</string>
+    <string name="allow_only_wifi_download">Download only via WiFi</string>
+    <string name="data_sources">News sources settings:</string>
+    <string name="langs_settings_title">VOICES SETTINGS</string>
+    <string name="choose_country">Country</string>
+    <string name="choose_lang">Language</string>
+    <string name="download_images_on_mobile_net">Don\'t load images over cell-net</string>
+    <string name="unpucking">Extracting...</string>
+    <string name="user_feeds">Custom news feeds</string>
+    <string name="user_feeds_title">MY NEWS FEEDS</string>    
+    <string name="add_news_feed">Add new feed</string>
+    <string name="save_news_feed">Save changes</string>
+    <string name="check_news_feed">Check feed</string>
+    <string name="add_user_feed_title">ADD CUSTOM FEED</string>    
+    <string name="edit_user_feed_title">EDIT CUSTOM FEED</string>    
+    <string name="url">URL</string>    
+    <string name="name">Name</string>   
+    <string name="no_url">Paste RSS-feed URL</string>    
+    <string name="no_name">Type the name of the feed </string>    
+    <string name="no_internet_connection">No Internet connection</string>    
+    <string name="bad_link">Bad link - invalid data obtained</string>    
+    <string name="video_instruction">Video instruction</string>   
+    <string name="cancel">Cancel</string>
+    <string name="confirm_delete">Are You really want delete feed</string>
+    <string name="all_ok">OK, link looks good</string>
+    <string name="add_user_feed_video_link">http://www.youtube.com/watch?v=VaA_O62m2zA&amp;feature=youtu.be</string>
+    <string name="feed_back_link">Feedback about Speind</string>
+    <string name="need_internet_connection_to_operation">Need Internet connection</string>
+    <string name="not_off_screen">Keep the screen turned on</string>
+	<string name="whats_new">
+        <![CDATA[
+            <b>What\'s new in version 1.5.2</b><br>
+			<p>News you\'re listening to can be shared now via plugins to their social networks. Just swipe up the picture!</p>
+			<p>Fixed bug with spontaneous playback resume.</p>
+			<p>Settings to setup reading speed is now available at the Settings.</p>
+			<p>Select the whole newsfeed tree is now restricted to a single source branch.</p>
+			<p>There is no «Stop» anymore – only «Pause».</p>
+			<p>Huge speedup of the sources list displaying and managing.</p>
+			<p>Links at the news are now clickable.</p>
+			<b>What\'s new in version 1.4.8</b><br>
+			<p>Application was redesigned</p>
+			<p>Added side-menu with fast plugin switches (in case you want to restrict receiving some news).</p>
+			<p>Added «List mode» for the moments, when user can safely read the screen. «Music only» player mode activated automatically upon switch.</p>
+			<p>Added the ability to share any URL to the app to make user able to listen to any text, published at the web.</p>
+			<p>Changed all the way the application is getting news. Now it is faster a lot.</p>
+			<p>Changed the notification widget. Now it is a little more useable.</p>
+			<p>Some app modules were rewritten from scratch. Now they’re more stable and fast.</p>
+			<p>A lot of bug-fixes.</p>	        
+			<b>What\'s new in version 1.4.4</b><br>		
+			<p>Google speech engine was enabled to use with Speind. All Google-supported languages are available now to be used for listening to news.</p>
+			<p>All premium voices are the the subject for purchase in app from the current moment.</p>
+			<p>Some changes were made to the speech logic. </p>
+			<p>Smart-pause implemented to make return to listening to the app from the incoming call more comfortable.</p>
+			<p>Some minor but very useful interface changes.</p>
+			<p>A lot of bug-fixes and improvements in the core code.</p>
+			<b>What\'s new in version 1.3.9</b><br>
+			<p>Fixed issue with the Google ART runtime</p>
+			<p>Fixed the wrong progress bar display under Android versions 4.4+</p>
+			<p>Fixed the general failure error when quitting app during music playback</p>
+			<p>Fixed some minor bugs.</p>
+			<b>What\'s new in version 1.3.8</b><br>
+			<p>Small changes in user interface.</p>
+			<p>Fixed some minor bugs.</p>
+			<b>What\'s new in version 1.3.6</b><br>
+			<p>Added French language and newsfeeds for France and Canada.</p>
+			<p>Added "Smart-pause" - now application will continue reading an article instead of starting over.</p>
+			<p>Added this "What\'s new" screen.</p>
+			<b>What\'s new in version 1.3.5</b><br>
+			<p>Added an option, preventing screen switch off. It is very useful to have one-touch control over the app when you\'re on the track or driving.</p>
+			<p>Added and option to add custom RSS-sources. Very handy to keep informed with the feeds that you are interested in, but we don\'t know about them</p>
+			<p>Added voices to the shop. Now you can change the voice that read news to you.</p>
+			<p>Fixed some minor bugs. Added some new.</p>
+		]]>	
+	</string>
+	<string name="shared_text">Shared text</string>
+    <string name="shared_text_vocalizing">Text received fom another application</string>
+    <string name="shared_url_from">Received from web resource</string>
+    <string name="share_text_processing">Web page received. Please, wait a while.</string>
+
+    <string name="change_view_mode">Change mode</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="no_music_found">No music was found on device, download it or use any streaming service plugin available</string>
+		
+    <string name="vk_title">Vkontakte</string>
+    <string name="smsreceiver">SMS Receiver</string>
+    <string name="twitterreceiver">Twitter</string>
+    
+    <string name="auto_detect">Auto detect</string>
+
+    <string name="speech_rate">Speech rate</string>
+    <string-array name="speech_rates">
+        <item>x0.5</item>
+        <item>x0.75</item>
+        <item>x1</item>
+        <item>x1.25</item>
+        <item>x1.5</item>
+        <item>x2</item>
+    </string-array>
+
+    <string name="pinboard_title">Pin Board</string>
+    <string name="pinboard">Pin board</string>
+    <string name="clear_pinboard">Clear Pin Board</string>
+    <string name="send_pinboard">Send Pin Board</string>
+    <string name="clear_pinboard_confirm">Are you sure you want to clear the Pin Board?</string>
+    <string name="remove_from_pinboard_confirm">Delete it from the Pin Board?</string>
+    <string name="clear_pinboard_request">Clear the Pin Board upon delivery?</string>
+    <string name="pinboard_email_empty">No email address specified. Set it now?</string>
+    <string name="pinboard_settings_title">Pin Board settings</string>
+    <string name="pinboard_settings">Pin Board</string>
+    <string name="confirm_clear_pinboard">Confirm Pin Board cleanup</string>
+    <string name="confirm_delete_pinboard_item">Confirm element delete</string>
+    <string name="infopoint_successfully_added_to_pinboard">Successfully pinned</string>
+    <string name="infopoint_already_in_pinboard">This pin was added already</string>
+    <string name="something_wrong_bad_infopoint">Something went wrong, the pin can’t be added – not enough data.</string>
+    <string name="infopoint_successfully_removed_from_pinboard">Pin successfully removed</string>
+    <string name="pinboard_successfully_sended">Pin Board was sent</string>
+    <string name="pinboard_send_error">There is a problem with sending the Pin Board. Please, try again later.</string>
+    <string name="mail_format">Letter format</string>
+    <string-array name="mail_formats">
+        <item>HTML</item>
+        <item>Plain text</item>
+    </string-array>
+    <string name="mail">E-mail</string>
+    <string name="keep_choice">Don’t ask again</string>
+
+    <string name="plugin_need_auth">This plugin requires authorization.\n Open Settings?</string>
+
+    <string name="show_before_post">Confirm before send</string>
+    <string name="post_by_speind">Received from Speind</string>
+    <string name="share_with">Share via</string>
+    <string name="choose_plugins_for_post">Choose plugins to post to</string>
+    <string name="infopoint_posted">Data sent to plugins for publishing</string>
+    <string name="infopoint_posting_not_configured">There is no plugin set for publishing</string>
+
+
+</resources>

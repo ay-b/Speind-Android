@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="acattsandroid-sdk-library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/speind/libs/acattsandroid-sdk-library.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

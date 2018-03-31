@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-005d718e75f19aca2e3d8a4731b497d773c1b6b2.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\sMSPlugin\build\intermediates\exploded-aar\Speind\speindAPI\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69d3e0f738edecdd55f4c7f4086b7a8db42ec25f">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\sMSPlugin\build\intermediates\pre-dexed\release\classes-a0d6485b8a854e754dcd27d8f35339127821143b.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\sMSPlugin\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\sMSPlugin\build\intermediates\pre-dexed\release\internal_impl-22.0.0-c88cd1a3cb9ab01e579df5fefc5161fc1b6e3d2a.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\vKPlugin\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\vKPlugin\build\intermediates\pre-dexed\release\classes-172ee12596c498ca60f1fa6b3504dbede5098230.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speindWidgetPlugin\build\intermediates\exploded-aar\Speind\speindAPI\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="76e5267748eb9277f9c24f98a4613f50d5363b6c">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speindWidgetPlugin\build\intermediates\pre-dexed\debug\classes-a58e8a95d09354f0d31341a733257672359aaa8c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Maple\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\facebookPlugin\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-274924ec67fd9b7cf7f6084722094324e0602bf8.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-3952c445f44ac9d1c4498f999afc10300cb2ee06.jar" />
+    </item>
+    <item
+        jar="C:\Users\Maple\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\gson-2.3-445f48e624c6a54c49b99bbf06f09bd0f3cd7f87.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-599749e7f084908f0999c5bfb4164801c9ae3643.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\libs\signpost-commonshttp4-1.2.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="731e05de30cfeb1f41d417f886277f9597fe0f36">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\build\intermediates\pre-dexed\release\signpost-commonshttp4-1.2.1.2-ef0c1db109da5e85b907982a3a63a22ab65bb3ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\Maple\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.6\a845a88238be0b5be9d238652c1bc0605ef91f52\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\android-async-http-1.4.6-839d6b0b2e0e11550da94db24f17f80b31c96567.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-9ad6d8a0e2cbf27e9b282529a5e70975d668f5fe.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-de620a9f447d43ad7ff205d6049d59a196b41fc7.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-81504477c27decf47296f586a4a40ed857c557a4.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-b3d3b06965c391a7d43793732eae9a15448a001f.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\facebookPlugin\build\intermediates\exploded-aar\Speind\speindAPI\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69d3e0f738edecdd55f4c7f4086b7a8db42ec25f">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\facebookPlugin\build\intermediates\pre-dexed\debug\classes-1923af83bf1d6623df9fdc7d22f55bcd299aa92d.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-8a9ba6e51e8f84342767f4a5fb4229ab2aa8668a.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-f1cf1dbd6470357078533306c85262dbeb0e2751.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\vKPlugin\build\intermediates\exploded-aar\com.vk\androidsdk\1.3.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="402dc16a0f189d56594ecc3c5138f8e818704a9a">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\vKPlugin\build\intermediates\pre-dexed\release\classes-91fd91ce538be315f0ddf8db024ea3d799ceddbf.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\sMSPlugin\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\sMSPlugin\build\intermediates\pre-dexed\release\classes-e668179fbe13f80bb0d4be15bc780eca8c418951.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\build\intermediates\pre-dexed\release\classes-3be50a90d5b675123e94a2cd179d01526026388d.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\sMSPlugin\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\sMSPlugin\build\intermediates\pre-dexed\release\classes-07dc774310b9fbd1d01d5bf28dff7e936fb4ebef.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\vKPlugin\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\vKPlugin\build\intermediates\pre-dexed\release\classes-b34feb58ffb671d7cf622eb491194ce1e3cca51a.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Programs\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\facebookPlugin\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-9faae874ab47e3385c88491cb02d2f9c82612b3b.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-5b09f9b78d0e1ecf50f47f9be75d843ccded4714.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-649f578a52cfb03b10d1b06120a36998e83cce06.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\vKPlugin\build\intermediates\exploded-aar\Speind\speindAPI\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69d3e0f738edecdd55f4c7f4086b7a8db42ec25f">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\vKPlugin\build\intermediates\pre-dexed\release\classes-5cc920b6570707dfccb2bc66f043c0f053d7cf47.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\me.taifuno\me.taifuno\1.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d2de08333a40db0b3059817190fd81766e6c65b1">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-2142b3422aea5671bb8b13d884fa20176db63a98.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speindWidgetPlugin\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speindWidgetPlugin\build\intermediates\pre-dexed\debug\classes-778653d50b91a0f54902fcb4033556b1ecaa0d0d.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\facebookPlugin\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a78bfd2ec508b123ee7c03f4006ba7996ef9a8dc">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\facebookPlugin\build\intermediates\pre-dexed\debug\classes-f461db42448ff1778040dc223a7fcecbb115e823.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-2f5734f70cdb86dac1edf705be632075912dce2e.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\facebookPlugin\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\facebookPlugin\build\intermediates\pre-dexed\debug\classes-1b7e7805ae3a6ccc849ee13327056c622960acd1.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speindWidgetPlugin\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speindWidgetPlugin\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-8bfbc48cc68a93617f2d937b30efabcc8c6d16e5.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\libs\twitter4j-core-4.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="34138fe734b03ae6e9ef978b41359b5fb6467047">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\build\intermediates\pre-dexed\release\twitter4j-core-4.0.1-c1ba257d83b13d48238d280bd1b1c202acf80747.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\internal_impl-22.0.0-d1d2ec35b955ebcbfd0e493f3ade04425bc4af86.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\facebookPlugin\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\facebookPlugin\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-7d3542c40fe9daca08df05ce2f7c0af0171e0c2f.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\Speind\speindAPI\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="76e5267748eb9277f9c24f98a4613f50d5363b6c">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\debug\classes-4c8d8824eb634a0c7f32afeac40e969119e3e386.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-4119f2d3057f609b1d39acb69edd7266b93a4c2a.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speindWidgetPlugin\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speindWidgetPlugin\build\intermediates\pre-dexed\debug\classes-96c1de4a68d357e005bb7ae1af863cbd0ba3d8d2.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\libs\acattsandroid-sdk-library.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="39ca47c851a54f8a847ed330a6f81dffae559103">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\acattsandroid-sdk-library-b6315b35c904e91cfe28541cd18dd7d504b5396f.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\libs\yandex-mobmetrica-lib-android-1.60-wlibs.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c83f602bdcf7f52f8b03eb453c1d87ea42f824a9">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\yandex-mobmetrica-lib-android-1.60-wlibs-0ee24b309cf45c33e4a7cbdc4fcf349a4be6d684.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-82317597e7761e8cc661a003ba124ae54d290182.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\libs\signpost-core-1.2.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bf95955dcf3d5a78c201e49b0c336787ea73f161">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\build\intermediates\pre-dexed\release\signpost-core-1.2.1.2-aedc53915cc7a8eda88c44c5b7de61a4b12a6219.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-34cb319aedc6d806bd39524f15b4254fa56e814c.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-eb06a8f381042f78df394fb5b7843e98c0daf0e7.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-9c6f5b8fe87bdf31593ddedcf14f7b2ce93e6d86.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-e7a66a5f403c37dc1a152b12d183f33dde9250b6.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\vKPlugin\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\vKPlugin\build\intermediates\pre-dexed\release\internal_impl-22.0.0-6b5ef7f36f8ba3d9e82b0dc59c7eb35cb8a3ce67.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\build\intermediates\pre-dexed\release\classes-35c72d6c49cd63462c9569ffb556f9487757e59d.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-b4c49271237e134eb65e9758f5bb1757df63f042.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Programs\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\support-annotations-22.0.0-9faae874ab47e3385c88491cb02d2f9c82612b3b.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-9ce7f3e00cf9600c6f8572eeb31e5079ccfd78b8.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-f284870cb497a2c1f3db5ca72217b0d0bbf92c83.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\build\intermediates\pre-dexed\release\internal_impl-22.0.0-741d999f4690891121811a9192c7bb38fd8a84c3.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.3.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\classes-64dca9bc112706d49fa90efeda61b50b8824ddda.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\build\intermediates\exploded-aar\Speind\speindAPI\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69d3e0f738edecdd55f4c7f4086b7a8db42ec25f">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\twitterPlugin\build\intermediates\pre-dexed\release\classes-85264a0fc7c508acab12f139d2ad1b769c76088b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Maple\.gradle\caches\modules-2\files-2.1\org.java-websocket\Java-WebSocket\1.3.0\db2658f013fb163de4a99274c2eb9e17efe535d2\Java-WebSocket-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="db2658f013fb163de4a99274c2eb9e17efe535d2">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\speind\build\intermediates\pre-dexed\normal\release\Java-WebSocket-1.3.0-507b17acdeeef7a231a325f637efc0eb40c46a35.jar" />
+    </item>
+    <item
+        jar="C:\Programmer\Projects\AndroidstudioProjects\Speind\facebookPlugin\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Programmer\Projects\AndroidstudioProjects\Speind\facebookPlugin\build\intermediates\pre-dexed\debug\classes-ae59a9bf7a2bc84c0532d89454c50dd6f2e63818.jar" />
+    </item>
+
+</items>

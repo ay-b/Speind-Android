@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/actionBarColor"
+    android:paddingTop="@dimen/tool_bar_top_padding"
+    tools:context=".SpeindSettings" >       
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/actionBarColor">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/langs_settings_title"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#383939"
+            android:textSize="@dimen/text16sp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+ <Button
+     android:id="@+id/restore_purchases"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="5dp"
+     android:layout_marginRight="5dp"
+     android:layout_marginTop="5dp"
+     android:background="@drawable/btn_simple"
+     android:paddingBottom="10dp"
+     android:paddingTop="10dp"
+     android:text="@string/restore_purchases"
+     android:textColor="#ffffff"/>
+
+<RelativeLayout
+    android:id="@+id/allow_only_wifi_download_wrap"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/delimeter_h" >
+
+                <ToggleButton
+                    android:id="@+id/allow_only_wifi_download"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/checkbox_selector"
+                    android:checked="true"
+                    android:textOff=""
+                    android:textOn="" 
+                    style="?android:attr/buttonBarButtonStyle"/>
+
+                <TextView
+                    android:id="@+id/allow_only_wifi_download_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/allow_only_wifi_download"
+                    android:paddingRight="20dp"
+                    android:text="@string/allow_only_wifi_download"
+                    android:textColor="#383939"
+                    android:textSize="@dimen/text14sp" />
+            </RelativeLayout>
+            
+    <ExpandableListView
+        android:id="@+id/langList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#ffffff"
+        android:childDivider="@drawable/delimeter_h"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:drawSelectorOnTop="false"
+        android:groupIndicator="@drawable/btn_indicator"
+        android:indicatorLeft="0px"
+        android:indicatorRight="0px" >
+
+<!--
+         android:layout_below="@+id/langs_settings_title"
+ -->
+    </ExpandableListView>
+
+</LinearLayout><!-- From: file:/C:/Programmer/Projects/AndroidstudioProjects/Speind/speind/src/main/res/layout/speind_voices.xml -->

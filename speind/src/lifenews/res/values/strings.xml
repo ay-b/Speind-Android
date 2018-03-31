@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="metrica_authorities" translatable="false">ru.lifenews.speind.MetricaContentProvider</string>
+
+    <string name="app_name">LifeNews</string>
+    <string name="app_name_full">Listen to LifeNews</string>
+
+</resources>

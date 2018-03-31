@@ -1,0 +1,231 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/actionBarColor"
+    android:paddingTop="@dimen/tool_bar_top_padding"
+    tools:context=".SpeindSettings" >       
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/actionBarColor">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/general_settings_title"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#383939"
+            android:textSize="@dimen/text16sp"/>
+
+    </android.support.v7.widget.Toolbar>
+        
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/scrollItems"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/max_play_time_wrap"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/delimeter_h" >
+
+                <Spinner
+                    android:id="@+id/max_play_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/max_play_time_title"
+                    android:background="@drawable/btn_spinner" />
+
+                <TextView
+                    android:id="@+id/max_play_time_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="16dp"
+                    android:text="@string/max_play_time"
+                    android:textColor="#383939"
+                    android:textSize="@dimen/text14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/store_time_wrap"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/delimeter_h" >
+
+                <Spinner
+                    android:id="@+id/store_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/store_time_title"
+                    android:background="@drawable/btn_spinner" />
+
+                <TextView
+                    android:id="@+id/store_time_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="16dp"
+                    android:text="@string/store_time"
+                    android:textColor="#383939"
+                    android:textSize="@dimen/text14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/speech_rate_wrap"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/delimeter_h" >
+
+                <Spinner
+                    android:id="@+id/speech_rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/speech_rate_title"
+                    android:background="@drawable/btn_spinner" />
+
+                <TextView
+                    android:id="@+id/speech_rate_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="16dp"
+                    android:text="@string/speech_rate"
+                    android:textColor="#383939"
+                    android:textSize="@dimen/text14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/read_full_article_wrap"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/delimeter_h" >
+
+                <ToggleButton
+                    android:id="@+id/read_full_article"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_centerVertical="true"
+                    android:checked="false"
+                    android:textOff=""
+                    android:textOn=""/>
+
+                <TextView
+                    android:id="@+id/read_full_article_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/read_full_article"
+                    android:paddingRight="16dp"
+                    android:text="@string/read_full_article"
+                    android:textColor="#383939"
+                    android:textSize="@dimen/text14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/download_images_on_mobile_net_wrap"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/delimeter_h" >
+
+                <ToggleButton
+                    android:id="@+id/download_images_on_mobile_net"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_centerVertical="true"
+                    android:checked="false"
+                    android:textOff=""
+                    android:textOn=""/>
+
+                <TextView
+                    android:id="@+id/download_images_on_mobile_net_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/download_images_on_mobile_net"
+                    android:paddingRight="16dp"
+                    android:text="@string/download_images_on_mobile_net"
+                    android:textColor="#383939"
+                    android:textSize="@dimen/text14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/not_off_screen_wrap"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/delimeter_h" >
+
+                <ToggleButton
+                    android:id="@+id/not_off_screen"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_centerVertical="true"
+                    android:checked="false"
+                    android:textOff=""
+                    android:textOn=""/>
+
+                <TextView
+                    android:id="@+id/not_off_screen_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/not_off_screen"
+                    android:paddingRight="16dp"
+                    android:text="@string/not_off_screen"
+                    android:textColor="#383939"
+                    android:textSize="@dimen/text14sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

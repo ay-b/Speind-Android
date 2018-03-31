@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayoutMsgOut">
+
+    <FrameLayout
+            android:id="@+id/msgOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/taifuno_msg_out"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="-9dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:visibility="visible">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:layout_gravity="bottom">
+            <TextView
+                    android:id="@+id/msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#ff222222"
+                    android:text=""
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:textIsSelectable="true"
+                    android:layout_gravity="right|top"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/time"
+                    android:textSize="11sp"
+                    android:textColor="#ff444444"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginRight="6dp"
+                    android:gravity="bottom|right"
+                    android:layout_gravity="bottom|right"/>
+        </LinearLayout>
+
+    </FrameLayout>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12sp"
+                android:text=""
+                android:id="@+id/status"
+                android:layout_below="@+id/msgOut"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="15dp"
+                android:visibility="gone"/>
+
+</RelativeLayout><!-- From: file:/Users/aolkov/Taifuno/android/Taifuno/TaifunoLibrary/src/main/res/layout/outgoing_message.xml -->

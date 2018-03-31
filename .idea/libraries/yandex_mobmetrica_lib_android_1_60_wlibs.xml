@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="yandex-mobmetrica-lib-android-1.60-wlibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/speind/libs/yandex-mobmetrica-lib-android-1.60-wlibs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

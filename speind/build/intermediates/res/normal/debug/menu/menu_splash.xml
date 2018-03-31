@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.maple.speindui.Speind">
+    <item android:id="@+id/quit"
+          android:icon="@android:drawable/ic_menu_close_clear_cancel"
+          android:title="@string/quit" 
+          app:showAsAction="never"/>       
+</menu><!-- From: file:/C:/Programmer/Projects/AndroidstudioProjects/Speind/speind/src/main/res/menu/menu_splash.xml -->

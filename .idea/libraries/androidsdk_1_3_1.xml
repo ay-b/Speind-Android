@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="androidsdk-1.3.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/vKPlugin/build/intermediates/exploded-aar/com.vk/androidsdk/1.3.1/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/vKPlugin/build/intermediates/exploded-aar/com.vk/androidsdk/1.3.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

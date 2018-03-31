@@ -1,0 +1,7 @@
+include ':speindAPI', ':'
+include ':speind'
+include ':twitterPlugin'
+include ':vKPlugin'
+include ':sMSPlugin'
+include ':speindWidgetPlugin'
+include ':facebookPlugin'

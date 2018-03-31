@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/delimeter_h"
+        android:minHeight="48dp" >
+
+    	<CheckBox
+    	    android:id="@+id/title"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentLeft="true"
+    	    android:layout_alignParentTop="false"
+    	    android:layout_centerVertical="true"
+    	    android:button="@drawable/checkbox_selector"
+    	    android:paddingLeft="@dimen/checkbox_padding"
+    	    android:text=""
+    	    android:textColor="#383939"
+    	    android:textSize="@dimen/text14sp" />
+
+     <Button
+         android:id="@+id/edit_button"
+         android:layout_width="42dp"
+         android:layout_height="42dp"
+         android:layout_alignParentRight="false"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="5dp"
+         android:layout_toLeftOf="@+id/delete_button"
+         android:background="@drawable/btn_edit" 
+         style="?android:attr/buttonBarButtonStyle"/>
+     
+     <Button
+         android:id="@+id/delete_button"
+         android:layout_width="42dp"
+         android:layout_height="42dp"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:background="@drawable/btn_delete" 
+         style="?android:attr/buttonBarButtonStyle"/>
+         	
+    </RelativeLayout>
+<!-- From: file:/C:/Programmer/Projects/AndroidstudioProjects/Speind/speind/src/main/res/layout/rss_plugin_user_feed_item.xml -->

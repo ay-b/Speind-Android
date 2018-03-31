@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Programmer/Projects/AndroidstudioProjects/Speind/speind/src/main/res/values-small/dimens.xml -->
+    <eat-comment/>
+    <dimen name="text12sp">9sp</dimen>
+    <dimen name="text14sp">11sp</dimen>
+    <dimen name="text16sp">12sp</dimen>
+    <dimen name="text37sp">28sp</dimen>
+</resources>

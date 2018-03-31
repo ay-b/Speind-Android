@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+    <dimen name="navigation_drawer_width">320dp</dimen>
+    <dimen name="tool_bar_top_padding">0dp</dimen>    
+    
+    <color name="splashBackgroundColor">#ecf0f1</color>
+    
+    <color name="actionBarColor">#ffffff</color>
+    <color name="mainBackgroundColor">#d3d8d9</color>
+    <color name="sideMenuBackgroundColor">#dd000000</color>
+    <color name="sideMenuLogoBackgroundColor">#ffffff</color>
+    
+    <color name="simple_btn">#f05945</color>
+    <color name="simple_btn_focused">#f7aca2</color>
+    <color name="simple_btn_pressed">#f43a21</color>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    
+</resources>

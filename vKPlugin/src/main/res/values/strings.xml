@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">SpeindVKPlugin</string>
+	<string name="vk_title">Vkontakte</string>
+	<string name="authenticated">Authorized</string>
+	<string name="not_authenticated">Not authorized</string>
+	<string name="login">Login</string>
+	<string name="logout">Logout</string>
+	<string name="refresh_rate">Refresh interval</string>
+	<string-array name="vk_refrash_intervals">
+  		<item>5 minutes</item> 
+  		<item>15 minutes</item> 
+  		<item>30 minutes</item> 
+  		<item>1 hour</item> 
+  		<item>5 hours</item> 
+  	</string-array>
+  	<string name="settings_title">VK SETTINGS</string>
+  	<string name="w_quotes">reposted</string>
+  	<string name="quotes">reposted</string>
+  	<string name="of_user">user</string>
+  	<string name="of_group">a post from a group</string>
+  	<string name="with_label">with a comment</string>
+  	<string name="original_post_text">The original post is</string> 						
+  	<string name="in_group">New repost in a</string>
+  	<string name="of_user1">of the user</string>
+  	<string name="of_group1">of the group</string>
+  	<string name="w_write">made a post</string>
+  	<string name="write">made a post</string>			
+  	<string name="new_post_in_group">New post in a group</string>
+  	<string name="w_posted_photo">has posted a photo</string>
+  	<string name="posted_photo">has posted a photo</string>
+  	<string name="new_photo_group">There is a new photo at the group</string>
+	<string name="link">external website link</string>
+	<string name="shared_via_speind">Shared via Speind.me</string>
+</resources>

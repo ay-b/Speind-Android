@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent" 
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/actionBarColor"
+        android:paddingTop="@dimen/tool_bar_top_padding">
+        
+	    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+	        android:id="@+id/toolbar"
+	        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:minHeight="?attr/actionBarSize"
+	        android:background="@color/actionBarColor">
+	
+	        <TextView
+	            android:id="@+id/toolbar_title"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/on_air"
+	            android:layout_gravity="center"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:textColor="#383939"
+	            android:textSize="@dimen/text16sp"/>
+	
+	    </android.support.v7.widget.Toolbar>
+    
+		<RelativeLayout
+		    
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:background="#ffffff">
+		
+		    <ScrollView
+		        android:id="@+id/scrollView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent" >
+		
+		        <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:orientation="vertical" >
+		
+		            <ImageView
+		                android:id="@+id/image"
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                android:scaleType="centerCrop"
+		                android:src="@drawable/placeholder"/>
+		
+				<LinearLayout
+				    android:id="@+id/massage_wrap"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical"
+				    android:paddingTop="10dp"
+				    android:paddingBottom="10dp"
+				    android:paddingLeft="20dp"
+				    android:paddingRight="20dp" >
+		
+		            <RelativeLayout
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content" >
+		
+		                <ImageView
+		                    android:id="@+id/senderImage"
+		                    android:layout_width="42dp"
+		                    android:layout_height="42dp"
+		                    android:layout_centerVertical="true"
+		                    android:layout_marginRight="5dp"
+		                    android:scaleType="centerCrop"
+		                    android:src="@drawable/ic_launcher" />
+		
+		                <TextView
+		                    android:id="@+id/postSender"
+		                    android:layout_width="match_parent"
+		                    android:layout_height="wrap_content"
+		                    android:layout_alignParentBottom="false"
+		                    android:layout_alignParentLeft="false"
+		                    android:layout_alignParentRight="false"
+		                    android:layout_centerVertical="true"
+		                    android:layout_toLeftOf="@+id/postDate"
+		                    android:layout_toRightOf="@+id/senderImage"
+		                    android:textAppearance="?android:attr/textAppearanceMedium"
+		                    android:textColor="#848a8b"
+		                    android:textSize="@dimen/text12sp" />
+		
+		                <TextView
+		                    android:id="@+id/postDate"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_alignParentRight="true"
+		                    android:layout_alignParentTop="true"
+		                    android:layout_centerVertical="true"
+		                    android:textAppearance="?android:attr/textAppearanceMedium"
+		                    android:textColor="#848a8b"
+		                    android:textSize="@dimen/text12sp" />
+		
+		            </RelativeLayout>
+		
+		            <TextView
+		                android:id="@+id/postText"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:textAppearance="?android:attr/textAppearanceMedium"
+		                android:textColor="#383939"
+		                android:textSize="@dimen/text14sp"
+						android:linksClickable="false" />
+		
+		        </LinearLayout>
+		        </LinearLayout>
+		    </ScrollView>
+		    
+		</RelativeLayout>
+</LinearLayout>

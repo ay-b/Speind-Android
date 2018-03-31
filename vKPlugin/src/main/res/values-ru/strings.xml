@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">SpeindVKPlugin</string>
+	<string name="vk_title">ВКонтакте</string>
+    <string name="authenticated">Авторизован</string>
+    <string name="not_authenticated">Не авторизован</string>
+    <string name="login">Вход</string>
+    <string name="logout">Выход</string>
+    <string name="refresh_rate">Интервал обновления</string>
+    <string-array name="vk_refrash_intervals">
+        <item>5 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>5 часов</item>
+    </string-array>
+  	<string name="settings_title">НАСТРОЙКИ ВК</string>
+  	<string name="w_quotes">сделала репост</string>
+  	<string name="quotes">сделал репост</string>
+  	<string name="of_user">пользователя</string>
+  	<string name="of_group">группы</string>
+  	<string name="with_label">с пометкой</string>
+  	<string name="original_post_text">Текст оригинального поста</string> 						
+  	<string name="in_group">В группе</string>
+  	<string name="of_user1">репост пользователя</string>
+  	<string name="of_group1">репост группы</string>
+  	<string name="w_write">добавила новый пост</string>
+  	<string name="write">добавил новый пост</string>			
+  	<string name="new_post_in_group">Новый пост в группе</string>
+  	<string name="w_posted_photo">добавила фотографию</string>
+  	<string name="posted_photo">добавил фотографию</string>
+  	<string name="new_photo_group">Новая фотография в группе</string>
+  	<string name="link">ссылка на вебсайт</string>
+	<string name="shared_via_speind">Shared via Speind.me</string>
+
+</resources>

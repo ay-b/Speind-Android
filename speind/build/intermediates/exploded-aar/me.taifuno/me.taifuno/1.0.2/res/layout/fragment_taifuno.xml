@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <FrameLayout
+            android:id="@+id/messages_frg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/linearLayout"
+            android:layout_below="@+id/taifuno_status">
+    </FrameLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:background="@drawable/taifuno_boxshadow"
+            android:weightSum="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:id="@+id/linearLayout" android:paddingLeft="5dp" android:gravity="bottom"
+            android:baselineAligned="false">
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_weight="0.97"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="2dp"
+                android:text=""/>
+        <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/send"
+                android:background="@drawable/taifuno_send"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="bottom|right"
+                android:gravity="end"
+                android:layout_marginBottom="7dp"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:text="@string/TaifunoTopLabelConnecting"
+            android:id="@+id/taifuno_status"
+            android:layout_gravity="center_horizontal|top"
+            android:gravity="center_horizontal|top"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffffff"
+            android:background="#ffff8800"/>
+
+</RelativeLayout>
+<!-- From: file:/Users/aolkov/Taifuno/android/Taifuno/TaifunoLibrary/src/main/res/layout/fragment_taifuno.xml -->

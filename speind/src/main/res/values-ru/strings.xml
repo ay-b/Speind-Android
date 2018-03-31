@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Speind</string>
+    <string name="app_name_full">Speaking Mind</string>
+    <string name="service_label">Добро пожаловать</string>
+    <string name="unread_label">Новостей непрочитано</string>
+
+    <string name="on_air">ON AIR</string>
+
+    <string name="title_activity_rsssettings">RSSSettings</string>
+    <string name="title_activity_speind_settings">SpeindSettings</string>
+    <string name="title_activity_speind_about">SpeindAbout</string>
+    
+    <string name="speind_copyright">©Speaking Mind</string>
+    <string name="need_download_files">У-пс, нет ни одного голоса</string>
+	<string name="download_tts">Либо скачайте бесплатный голос от Google,</string>
+	<string name="open_voice_store">либо купите лучший в магазине.</string>
+	<string name="download">Загрузить</string>   
+	<string name="open_store">Открыть магазин.</string>
+    <string name="downloading">Загрузка файлов</string>
+    <string name="welcome_message">Привет всем!</string>
+    <string name="quit">Выход</string>
+    <string name="rssreceiver">News Feeds</string>
+    <string name="report_what">сообщает, что</string>
+    <string name="details">Подробнее.</string>
+    <string name="album">Альбом</string>
+    <string name="artist">Исполнитель</string>
+    <string name="track">Трек</string>
+    <string name="settings">Настройки</string>
+    <string name="general_settings">Общие настройки</string>
+    <string name="post_settings">Настройки отправки</string>
+    <string name="settings_title">Настройки</string>
+    <string name="general_settings_title">Общие настройки</string>
+    <string name="post_settings_title">Настройки отправки</string>
+    <string name="rss_settings">Настройки RSS</string>
+    <string name="refrash_rate">Интервал обновления</string>
+    <string name="main_news">Главные новости</string>
+    <string name="regional_news">Региональные новости</string>
+    <string-array name="rss_refrash_intervals">
+        <item>5 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>5 часов</item>
+    </string-array>
+    <string name="store_time">Хранить историю</string>
+    <string-array name="store_times">
+        <item>1 день</item>
+        <item>3 дня</item>
+    </string-array>
+    <string name="feedback">Отзыв</string>
+    <string name="max_play_time">Чтение/музыка</string>
+    <string-array name="max_play_times">
+        <item>Читать все новости</item>
+        <item>Чередование</item>
+        <item>По 5 мин</item>
+        <item>По 10 мин</item>
+        <item>По 15 мин</item>
+        </string-array>
+    <string name="feedback_title">ОТЗЫВ</string>
+    
+    <string name="about_content_title">Speaking Mind</string>
+    
+    <string name="write_mail_text">
+		<![CDATA[
+			<p>Мы уверены, вам есть что сказать — пожалуйста, напишите нам. Нам важно ваше мнение и мы будем благодарны вам за него.</p>
+		]]>
+	</string>
+
+    <string name="open_chat_text">
+		<![CDATA[
+			<p>У вас что-то срочное? Откройте чат и задайте вопрос.</p>
+            <p>Пожалуйста, помните, что разработчики тоже иногда спят, едят и занимаются с детьми. Ответ может быть дан не сразу.</p>
+		]]>
+	</string>
+
+    <string name="give_5">Нравится? Дай 5!</string>
+    <string name="open_chat">Открыть чат</string>
+    <string name="write_mail">Написать письмо</string>
+    <string name="send_mail">Отправить письмо</string>
+    <string name="open_link">Открыть ссылку</string>
+    <string name="read_full_article">Автоматически читать полную статью</string>
+    <string name="confirm_read">Коснитесь картинки, чтобы прочесть его</string>
+    <string name="select_voice">Выберите пожалуйста голос</string>
+    <string name="ok">OK</string>
+    <string name="yes">ДА</string>
+    <string name="no">НЕТ</string>
+    <string name="later">Позже</string>
+    <string name="langs_settings">Настройки языков</string>
+    <string name="restore_purchases">Восстановить покупки</string>
+    <string name="allow_only_wifi_download">Загружать только через WiFi</string>
+    <string name="data_sources">Настройки источников новостей:</string>
+    <string name="langs_settings_title">НАСТРОЙКИ ГОЛОСОВ</string>
+    <string name="choose_country">Страна</string>
+    <string name="choose_lang">Язык</string>
+    <string name="download_images_on_mobile_net">Не загружать изображения через сотовую сеть</string>
+    <string name="unpucking">Извлечение...</string>
+    <string name="user_feeds">Пользовательские источники</string>
+    <string name="user_feeds_title">МОИ ИСТОЧНИКИ</string>
+    <string name="add_news_feed">Добавить новый источник</string>    
+    <string name="save_news_feed">Сохранить изменения</string>
+    <string name="check_news_feed">Проверить источник</string>
+    <string name="add_user_feed_title">ДОБАВИТЬ ИСТОЧНИК</string>
+    <string name="edit_user_feed_title">РЕДАКТИРОВАТЬ ИСТОЧНИК</string>
+    <string name="url">URL</string>    
+    <string name="name">Название</string>    
+    <string name="no_url">Вставьте адрес RSS-потока</string>    
+    <string name="no_name">Напишите название источника</string>    
+    <string name="no_internet_connection">Нет связи с сетью</string>    
+    <string name="bad_link">По ссылке отсутствуют нужные данные</string>    
+    <string name="video_instruction">Видео инструкция</string>
+    <string name="cancel">Отмена</string>
+    <string name="confirm_delete">Вы действительно хотите удалить источник</string>
+    <string name="all_ok">ОК, формат данных правильный</string>
+    <string name="add_user_feed_video_link">http://www.youtube.com/watch?v=O4bbOSL4Jb8&amp;feature=youtu.be</string>
+    <string name="feed_back_link">Feedback about Speind</string>
+    <string name="need_internet_connection_to_operation">Требуется подключение к сети Internet</string>
+    <string name="not_off_screen">Не выключать экран</string>
+    <string name="whats_new">
+        <![CDATA[
+            <b>Что нового в версии 1.5.2</b><br>
+			<p>Теперь можно поделиться прослушиваемой новостью в социальные сети. Просто проведите пальцем вверх по картинке!</p>
+			<p>Исправление бага со спонтанным включением чтения</p>
+			<p>Регулировка скорости чтения теперь доступна в настройках</p>
+			<p>Запрет выбора всего списка новостей от корня, теперь только ветка от  источника</p>
+			<p>СмартПауза вместо Стоп</p>
+			<p>Значительное ускорение работы со списками источников</p>
+			<p>Ссылки в текстах новостей теперь активны</p>
+			<b>Что нового в версии 1.4.8</b><br>
+			<p>Обновлён дизайн приложения</p>
+			<p>Появилось боковое меню с выключателями плагинов на случай, когда нужно ограничить загрузку тех или иных новостей</p>
+			<p>Появился списочный режим для моментов, когда пользователь может безопасно читать с экрана. В этом режиме программа играет только музыку</p>
+			<p>Изменены механизмы загрузки новостей, теперь всё происходит быстрее</p>
+			<p>Изменён виджет для шторки, теперь он удобнее в использовании</p>
+			<p>Добавлена возможность отправки в программу любого веб-адреса для чтения в программе текста с данной веб-страницы</p>
+			<p>Полностью переписаны некоторые модули программы — теперь работает быстрее и лучше</p>
+			<p>Исправлено множество ошибок</p>        
+			<b>Что нового в версии 1.4.4</b><br>
+			<p>Добавлен механизм использования Google TTS. Теперь можно слушать новости на любом языке, который поддерживается Google. </p>
+			<p>Все премиальные голоса теперь доступны только в виде внутрипрограммных покупок</p>
+			<p>Изменения в работе механизма чтения.</p>
+			<p>Внедрение “смарт-паузы” в чтение, которое позволяет более комфортно возвращаться к прослушиванию, если работа программы была прервана, например, телефонным звонком.</p>
+			<p>Небольшие, но очень полезные изменения в интерфейсе.</p>
+			<p>Множество исправлений и усовершенствований в коде приложения.</p>
+			<b>Что нового в версии 1.3.9</b><br>
+			<p>Исправлена проблема с Google ART</p>
+			<p>Исправлено неверное отображение длины новости в Android 4.4+</p>
+			<p>Исправлена ошибка с выходом из программы во время проигрывания музыки</p>
+			<p>Исправлено несколько мелких ошибок</p>
+			<b>Что нового в версии 1.3.8</b><br>
+			<p>Поправлен пользовательский интерфейс</p>
+			<p>Исправлено несколько багов</p>
+			<b>Что нового в версии 1.3.6</b><br>
+			<p>Добавлен французский язык с источниками новостей для Франции и Канады.</p>
+			<p>Добавлена смарт-пауза. Теперь, если чтение было прервано в результате входящего звонка, чтение статьи будет продолжено с того места, где было прервано, вместо чтения с начала.</p>
+			<p>Добавлен экран "Что нового".</p>
+			<b>Что нового в версии 1.3.5</b><br>
+			<p>Добавили опцию на запрет гашения экрана. Очень удобно иметь возможность контролировать приложение в одно касание, когда вы за рулём, или занимаетесь спортом.</p>
+			<p>Добавлена возможность добавлять собственные RSS-потоки. Теперь вы можете слушать не только те новостные ленты, о которых мы знаем, а действительно любые.</p>
+			<p>Появился внутренний магазин с голосами. Теперь вы можете слушать новости на разных языках.</p>
+			<p>Исправлено несколько багов, добавлено несколько новых.</p>
+		]]>
+	</string>
+    <string name="shared_text">Shared text</string>
+    <string name="shared_text_vocalizing">Текст полученный из другого приложения</string>
+    <string name="shared_url_from">Получено от вэб ресурса</string>
+    <string name="share_text_processing">Страница получена. Обработка…</string>
+
+    <string name="change_view_mode">Сменить режим</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="no_music_found">Музыка не обнаружена. Скачайте музыку на устройство, или подключите плагины потоковых сервисов</string>
+    
+    <string name="vk_title">ВКонтакте</string>
+    <string name="smsreceiver">SMS Receiver</string>
+    <string name="twitterreceiver">Twitter</string>
+    
+    <string name="auto_detect">Определить автоматически</string>
+
+    <string name="speech_rate">Скорость чтения</string>
+    <string-array name="speech_rates">
+        <item>x0.5</item>
+        <item>x0.75</item>
+        <item>x1</item>
+        <item>x1.25</item>
+        <item>x1.5</item>
+        <item>x2</item>
+    </string-array>
+
+    <string name="pinboard_title">Закладки</string>
+    <string name="pinboard">Закладки</string>
+    <string name="clear_pinboard">Очистить</string>
+    <string name="send_pinboard">Отправить</string>
+    <string name="clear_pinboard_confirm">Вы уверены что хотите удалить все закладки?</string>
+    <string name="remove_from_pinboard_confirm">Вы уверены что хотите убрать элемент из закладок?</string>
+    <string name="clear_pinboard_request">Очистить закладки после отправки?</string>
+    <string name="pinboard_email_empty">Не указан E-mail для отправки. Открыть настройки?</string>
+    <string name="pinboard_settings_title">Настройки списка закладок</string>
+    <string name="pinboard_settings">Закладки</string>
+    <string name="confirm_clear_pinboard">Подверждать очистку списка</string>
+    <string name="confirm_delete_pinboard_item">Подверждать удаление элемента</string>
+    <string name="infopoint_successfully_added_to_pinboard">Инфоточка успешно добавлена в закладки</string>
+    <string name="infopoint_already_in_pinboard">Инфоточка уже была добавлена в закладки ранее</string>
+    <string name="something_wrong_bad_infopoint">Что-то пошло не так... Инфоточка не может быть добавлена в закладки — недостаточно данных.</string>
+    <string name="infopoint_successfully_removed_from_pinboard">Инфоточка успешно удалена из закладок</string>
+    <string name="pinboard_successfully_sended">Закладки успешно отправлены</string>
+    <string name="pinboard_send_error">Не удалось отправить закладки. Попробуйте позже</string>
+    <string name="mail_format">Формат письма</string>
+    <string-array name="mail_formats">
+        <item>Красиво</item>
+        <item>Просто текст</item>
+    </string-array>
+    <string name="mail">E-mail</string>
+    <string name="keep_choice">Больше не спрашивать</string>
+
+    <string name="plugin_need_auth">Плагин требует авторизации.\n Открыть настройки?</string>
+
+    <string name="show_before_post">Подтверждать перед отправкой</string>
+    <string name="post_by_speind">Получено из Speind</string>
+    <string name="share_with">Поделиться через</string>
+    <string name="choose_plugins_for_post">Выберите плагины для репоста</string>
+    <string name="infopoint_posted">Инфоточка передана плагинам для размещения</string>
+    <string name="infopoint_posting_not_configured">Не указано ни одного плагина для передачи инфоточки для размещения</string>
+
+</resources>

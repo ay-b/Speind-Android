@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_id_" translatable="false">625834694195969</string>
+	<string name="app_id" translatable="false">788015727905357</string>
+
+    <string name="app_name">SpeindFacebookPlugin</string>   
+    <string name="facebook_title">Facebook</string>
+	<string name="authenticated">Authorized</string>
+	<string name="not_authenticated">Not authorized</string>
+	<string name="login">Login</string>
+	<string name="logout">Logout</string>
+	<string name="refresh_rate">Refresh interval</string>
+	<string-array name="facebook_refrash_intervals">
+  		<item>5 minutes</item> 
+  		<item>15 minutes</item> 
+  		<item>30 minutes</item> 
+  		<item>1 hour</item> 
+  		<item>5 hours</item> 
+  	</string-array>
+	<string name="settings_title">FACEBOOK SETTINGS</string>		
+  	<string name="new_status">Новый статус</string>
+	<string name="status_text">Текст статуса</string>
+	<string name="new_photo_from">Новое фото от</string>
+	<string name="with_comment">С комментарием</string>
+	<string name="new_video_from">Новое видео от</string>	
+	<string name="link_from">Ссылка от</string>	
+  	<string name="title">Заголовок</string>	
+  	<string name="details">Подробнее</string>
+  	<string name="photo_from">Фото от</string>	
+  	<string name="video_from">Видео от</string>
+  	<string name="via">через</string>
+  	<string name="post_from">Пост от</string>
+  	<string name="post_text">Текст поста</string>
+  	<string name="link">external website link</string>
+	<string name="shared_via_speind">Shared via Speind.me</string>
+    <string name="title_activity_permission_request">PermissionRequest</string>
+
+</resources>

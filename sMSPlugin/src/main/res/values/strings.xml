@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpeindSMSPlugin</string>
+    <string name="smsreceiver">SMS Receiver</string>
+    <string name="settings_title">SMS SETTINGS</string>
+    <string name="auto_read_title">Read texts automatically</string>
+    <string name="send_sms">sent you a text message.</string>
+    <string name="from_number">Phone number ends with</string>
+    <string name="from_short_number">You have got a text message from the short number</string>
+
+</resources>

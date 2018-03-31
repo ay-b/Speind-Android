@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@+id/add_user_feed_wrap"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:clickable="true" >
+
+<!-- 
+   	    <RelativeLayout
+	        android:id="@+id/add_user_feeds_title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="48dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true" >
+	
+	        <Button
+	            android:id="@+id/back_button"
+	            android:layout_width="42dp"
+	            android:layout_height="42dp"
+	            android:layout_alignParentLeft="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="10dp"
+	            android:background="@drawable/btn_back" />
+	
+	        <TextView
+	            android:id="@+id/add_user_feed_title"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="false"
+	            android:layout_alignParentLeft="false"
+	            android:layout_alignParentRight="false"
+	            android:layout_alignParentTop="false"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerInParent="true"
+	            android:text="@string/add_user_feed_title"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:textColor="#383939"
+	            android:textSize="@dimen/text16sp" />
+	    </RelativeLayout>
+ -->
+    <RelativeLayout
+        android:id="@+id/video_instruction_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/delimeter_h" >
+<!-- 
+        android:layout_below="@+id/add_user_feeds_title"
+ -->	        
+		    <TextView
+		        android:id="@+id/instruction_title"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:text="@string/video_instruction"
+		        android:textColor="#0000ff"
+		        android:textSize="@dimen/text16sp" />
+
+    </RelativeLayout>
+    
+	     <RelativeLayout
+	         android:id="@+id/name_wrap"
+	         android:layout_width="wrap_content"
+	         android:layout_height="48dp"
+	         android:layout_below="@+id/video_instruction_wrap"
+	         android:layout_marginLeft="20dp"
+	         android:layout_marginRight="20dp"
+	         android:background="@drawable/delimeter_h" >
+	
+		    <EditText
+		        android:id="@+id/name"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="false"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerInParent="false"
+		        android:layout_centerVertical="false"
+		        android:layout_marginTop="5dp"
+		        android:layout_toRightOf="@+id/name_title"
+		        android:hint=""
+		        android:inputType="text"
+		        android:textColor="#383939"
+		        android:textSize="@dimen/text14sp" >
+
+	        <requestFocus />
+	    </EditText>	
+		
+		    <TextView
+		        android:id="@+id/name_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:paddingRight="20dp"
+		        android:text="@string/name"
+		        android:textColor="#383939"
+		        android:textSize="@dimen/text14sp" />
+	
+	    </RelativeLayout>
+	    	    	    
+	     <RelativeLayout
+	         android:id="@+id/url_wrap"
+	         android:layout_width="wrap_content"
+	         android:layout_height="48dp"
+	         android:layout_below="@+id/name_wrap"
+	         android:layout_marginLeft="20dp"
+	         android:layout_marginRight="20dp"
+	         android:background="@drawable/delimeter_h" >
+	
+		    <EditText
+		        android:id="@+id/url"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="false"
+		        android:layout_marginTop="5dp"
+		        android:layout_toRightOf="@+id/url_title"
+		        android:hint=""
+		        android:inputType="textUri"
+		        android:textColor="#383939"
+		        android:textSize="@dimen/text14sp" >
+
+	    </EditText>		        
+		
+		    <TextView
+		        android:id="@+id/url_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:paddingRight="20dp"
+		        android:text="@string/url"
+		        android:textColor="#383939"
+		        android:textSize="@dimen/text14sp" />
+	
+	    </RelativeLayout>
+	    
+	    <RelativeLayout
+	        android:id="@+id/lang_wrap"
+	        android:layout_width="wrap_content"
+	        android:layout_height="48dp"
+	        android:layout_below="@+id/url_wrap"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:background="@drawable/delimeter_h" >
+	
+		    <Spinner
+		        android:id="@+id/lang"
+		        android:layout_width="match_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_toRightOf="@+id/lang_title"
+		        android:background="@drawable/btn_spinner"
+		        android:focusable="true"
+		        android:focusableInTouchMode="true" />
+		
+		    <TextView
+		        android:id="@+id/lang_title"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:paddingRight="20dp"
+		        android:text="@string/choose_lang"
+		        android:textColor="#383939"
+		        android:textSize="@dimen/text14sp" />
+	
+	    </RelativeLayout>
+    
+	    <RelativeLayout
+	        android:id="@+id/message_wrap"
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:layout_below="@+id/lang_wrap"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:background="@drawable/delimeter_h" >
+
+		    <TextView
+		        android:id="@+id/message"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="false"
+		        android:layout_centerHorizontal="true"
+		        android:layout_centerVertical="true"
+		        android:paddingRight="20dp"
+		        android:text="@string/choose_lang"
+		        android:textColor="#383939"
+		        android:textSize="@dimen/text14sp" />
+
+		    <ProgressBar
+		        android:id="@+id/processing"
+		        style="?android:attr/progressBarStyleHorizontal"
+		        android:indeterminate="true"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="false"
+		        android:layout_centerHorizontal="true"
+		        android:layout_centerVertical="true" />
+		    	        	
+	    </RelativeLayout>	 
+
+	    <RelativeLayout
+	        android:id="@+id/buttons_wrap"
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:layout_below="@+id/message_wrap"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:background="@drawable/delimeter_h" >
+
+		    <Button
+		        android:id="@+id/add_feed_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_centerVertical="true"
+		        android:background="@drawable/btn_simple"
+		        android:paddingBottom="10dp"
+		        android:paddingLeft="10dp"
+		        android:paddingRight="10dp"
+		        android:paddingTop="10dp"
+		        android:text="@string/add_news_feed"
+		        android:textColor="#ffffff" />
+
+		    <Button
+		        android:id="@+id/check_feed_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_centerVertical="true"
+		        android:background="@drawable/btn_simple"
+		        android:paddingBottom="10dp"
+		        android:paddingLeft="10dp"
+		        android:paddingRight="10dp"
+		        android:paddingTop="10dp"
+		        android:text="@string/check_news_feed"
+		        android:textColor="#ffffff" />
+		    		    	
+	    </RelativeLayout>	 
+	    	    
+    </RelativeLayout>
+</RelativeLayout>

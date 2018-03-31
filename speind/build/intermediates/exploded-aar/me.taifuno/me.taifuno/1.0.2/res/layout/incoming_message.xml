@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/relativeLayoutMsgOut">
+
+    <ImageView
+            android:id="@+id/icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/frameLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"/>
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:minWidth="80dp"
+            android:background="@drawable/taifuno_msg_in"
+            android:id="@+id/frameLayout"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_marginBottom="10dp">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:layout_gravity="bottom">
+            <TextView
+                    android:id="@+id/msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#ff222222"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="10dp"
+                    android:textIsSelectable="true"
+                    android:layout_gravity="left|top"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/time"
+                    android:textSize="11sp"
+                    android:textColor="#ff444444"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="10dp"
+                    android:gravity="bottom|left"
+                    android:layout_gravity="bottom|left"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout><!-- From: file:/Users/aolkov/Taifuno/android/Taifuno/TaifunoLibrary/src/main/res/layout/incoming_message.xml -->

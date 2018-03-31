@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.maple.speindui.SpeindPinboard">
+    <item android:id="@+id/send_pinboard"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="@string/send_pinboard"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/clear_pinboard"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/clear_pinboard"
+        app:showAsAction="ifRoom" />
+</menu><!-- From: file:/C:/Programmer/Projects/AndroidstudioProjects/Speind/speind/src/main/res/menu/menu_pinboard.xml -->

@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/actionBarColor"
+    android:paddingTop="@dimen/tool_bar_top_padding"
+    tools:context=".SpeindSettings" >       
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/actionBarColor">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#383939"
+            android:textSize="@dimen/text16sp"/>
+
+    </android.support.v7.widget.Toolbar>
+    
+    <RelativeLayout
+		android:id="@+id/user_feeds_wrap"    
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"    
+	    tools:context=".SpeindSettings" >
+        
+	    <RelativeLayout
+	        android:id="@+id/add_button_wrap"
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:background="@drawable/delimeter_h">
+	    <Button
+	        android:id="@+id/add_feed_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:background="@drawable/btn_simple"
+	        android:paddingBottom="10dp"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="10dp"
+	        android:paddingTop="10dp"
+	        android:text="@string/add_news_feed"
+	        android:textColor="#ffffff" />
+	
+	    </RelativeLayout>
+	
+	    <ScrollView
+	        android:id="@+id/items_wrap"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@id/add_button_wrap"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp" >
+	
+	        <LinearLayout
+	            android:id="@+id/items"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical" >
+	
+	        </LinearLayout>
+	    </ScrollView>
+	    
+	</RelativeLayout>    
+	
+</LinearLayout><!-- From: file:/C:/Programmer/Projects/AndroidstudioProjects/Speind/speind/src/main/res/layout/rss_plugin_user_feeds.xml -->
